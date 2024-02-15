@@ -9,7 +9,7 @@ export default function Header(props) {
     <header className={`header`} style={styles}>
       <img src={logo} alt="troll-face" className="header-image" />
       <div>
-        <h4 className="header-project">React Course Project 3</h4>
+        <h4 className="header-project">Create Memes</h4>
         <button className="header-button" onClick={darkModeSetting}>
           {darkMode ? "Light Mode" : "Dark Mode"}
         </button>
